@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      hooks-vue:
+      hooks-vue3:
         specifier: workspace:^1.0.0
-        version: link:packages/hooks-vue
+        version: link:packages/hooks-vue3
     devDependencies:
       '@types/gulp':
         specifier: ^4.0.11
@@ -47,7 +47,7 @@ importers:
         specifier: ^4.3.9
         version: registry.npmmirror.com/vite@4.3.9(sass@1.63.6)
 
-  packages/hooks-vue:
+  packages/hooks-vue3:
     dependencies:
       '@types/lodash-es':
         specifier: ^4.17.7

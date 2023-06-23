@@ -1,5 +1,5 @@
 {
-  "name": "hooks-vue",
+  "name": "hooks-vue3",
   "version": "1.0.0",
   "description": "monorepo包",
   "main": "index.js",
@@ -14,7 +14,7 @@
   ],
   "private": true,
   "workspaces": [
-    "packages/hooks-vue"
+    "packages/hooks-vue3"
   ],
   "author": "",
   "license": "ISC",
@@ -26,6 +26,6 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "hooks-vue": "workspace:^1.0.0"
+    "hooks-vue3": "workspace:^1.0.0"
   }
 }

@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useToggle } from "hooks-vue";
+import { useToggle } from "hooks-vue3";
 const [value, toggle] = useToggle(false);
 
 const [value2, toggle2] = useToggle(true, {

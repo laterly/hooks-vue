@@ -1,10 +1,10 @@
-<h1><b>hooks-vue</b></h1>
+<h1><b>hooks-vue3</b></h1>
   <sup>
-    <a href="https://www.npmjs.com/package/hooks-vue">
-       <img src="https://img.shields.io/npm/v/hooks-vue.svg" alt="npm package" />
+    <a href="https://www.npmjs.com/package/hooks-vue3">
+       <img src="https://img.shields.io/npm/v/hooks-vue3.svg" alt="npm package" />
     </a>
-     <a href="https://github.com/laterly/hooks-vue/">
-       <img src="https://img.shields.io/github/stars/laterly/hooks-vue?style=social" alt="github stars" />
+     <a href="https://github.com/laterly/hooks-vue3/">
+       <img src="https://img.shields.io/github/stars/laterly/hooks-vue3?style=social" alt="github stars" />
     </a>
   </sup>
 <h4>Vue3 常用的Hooks集合</h4>
@@ -16,20 +16,20 @@
 by using `npm`:
 
 ```bash
-npm install hooks-vue --save
+npm install hooks-vue3 --save
 ```
 
 by using `yarn`:
 
 ```bash
-yarn add hooks-vue
+yarn add hooks-vue3
 ```
 
 by using `pnpm`:
 
 ## 🏃 Docs
 <h4>
-  <a href="https://laterly.gitbook.io/hooks-vue/">使用文档</a>
+  <a href="https://laterly.gitbook.io/hooks-vue3/">使用文档</a>
 </h4>
 
 <br>
@@ -42,8 +42,8 @@ by using `pnpm`:
 
 <!-- - **Browser** -->
 - **State**
-  - [`useBoolean`](https://laterly.gitbook.io/hooks-vue/) — useBoolean 管理一个布尔类型的状态值.
-  - [`useToggle`](https://laterly.gitbook.io/hooks-vue/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
+  - [`useBoolean`](https://laterly.gitbook.io/hooks-vue3/) — useBoolean 管理一个布尔类型的状态值.
+  - [`useToggle`](https://laterly.gitbook.io/hooks-vue3/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
   
 - **Elements**
   

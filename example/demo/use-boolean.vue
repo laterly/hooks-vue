@@ -12,7 +12,7 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-import { useBoolean } from 'hooks-vue';
+import { useBoolean } from 'hooks-vue3';
 const text = ref("");
 const [isOpenModal, setOpenModal, setCloseModal] = useBoolean();
 
