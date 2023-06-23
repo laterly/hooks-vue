@@ -3,7 +3,7 @@
     <a href="https://www.npmjs.com/package/hooks-vue">
        <img src="https://img.shields.io/npm/v/hooks-vue.svg" alt="npm package" />
     </a>
-     <a href="https://github.com/laterly/hooks-react-using/">
+     <a href="https://github.com/laterly/hooks-vue/">
        <img src="https://img.shields.io/github/stars/laterly/hooks-vue?style=social" alt="github stars" />
     </a>
   </sup>
@@ -16,13 +16,13 @@
 by using `npm`:
 
 ```bash
-npm install hooks-react-using --save
+npm install hooks-vue --save
 ```
 
 by using `yarn`:
 
 ```bash
-yarn add hooks-react-using
+yarn add hooks-vue
 ```
 
 by using `pnpm`:
