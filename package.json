@@ -1,0 +1,31 @@
+{
+  "name": "hooks-vue",
+  "version": "1.0.0",
+  "description": "monorepo包",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C example dev",
+    "build": "gulp -f scripts/gulpfile.ts"
+  },
+  "keywords": [
+    "vue hooks",
+    "monorepo",
+    "pnpm"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/hooks-vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gulp": "^4.0.11",
+    "gulp": "^4.0.2",
+    "sucrase": "^3.32.0",
+    "typescript": "^5.1.3",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "hooks-vue": "workspace:^1.0.0"
+  }
+}

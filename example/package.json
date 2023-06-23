@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.63.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.20"
+  }
+}
