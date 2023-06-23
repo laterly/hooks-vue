@@ -42,7 +42,8 @@ by using `pnpm`:
 
 <!-- - **Browser** -->
 - **State**
-  - [`useBoolean`](https://laterly.gitbook.io/hooks-vue/useBoolean) — useBoolean 管理一个布尔类型的状态值.
+  - [`useBoolean`](https://laterly.gitbook.io/hooks-vue/) — useBoolean 管理一个布尔类型的状态值.
+  - [`useToggle`](https://laterly.gitbook.io/hooks-vue/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
   
 - **Elements**
   
