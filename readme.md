@@ -26,6 +26,11 @@ yarn add hooks-vue3
 
 by using `pnpm`:
 
+
+```bash
+pnpm install hooks-vue3 --save
+```
+
 ## 🏃 Docs
 <h4>
   <a href="https://laterly.gitbook.io/hooks-vue3/">使用文档</a>
