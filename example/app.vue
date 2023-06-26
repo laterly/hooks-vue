@@ -8,6 +8,8 @@
     <useDebounceDemo />
     <h3>useThrottleDemo</h3>
     <useThrottleDemo />
+    <h3>useStateDemo</h3>
+    <useStateDemo />
   </div>
 </template>
 
@@ -16,5 +18,6 @@
  import useToggleDemo from './demo/use-toggle.vue';
  import useDebounceDemo from './demo/use-debounce.vue';
  import useThrottleDemo from './demo/use-throttle.vue';
+ import useStateDemo from './demo/use-state.vue';
 </script>
 <style scoped lang="scss"></style>
