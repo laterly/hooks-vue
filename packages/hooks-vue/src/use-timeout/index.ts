@@ -39,12 +39,6 @@ const useTimeout = (
       }
       callback();
     }, delay);
-
-    return () => {
-      if (timerRef.value) {
-        clearTimeout(timerRef.value);
-      }
-    };
   };
 
   const stop = () => {

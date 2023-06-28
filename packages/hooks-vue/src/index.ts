@@ -18,6 +18,9 @@ import useThrottleWatch from './use-throttle-watch';
 import useOnceWatch from './use-once-watch';
 import useTimeout from './use-timeout';
 import useInterval from './use-interval';
+import useRafTimeout from './use-raf-timeout';
+import useRafInterval from './use-raf-interval';
+import useCountDown from './use-count-down';
 
 export {
   useBoolean,
@@ -39,5 +42,8 @@ export {
   useThrottleWatch,
   useOnceWatch,
   useTimeout,
-  useInterval
+  useRafTimeout,
+  useInterval,
+  useRafInterval,
+  useCountDown
 };

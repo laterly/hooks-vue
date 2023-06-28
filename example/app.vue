@@ -38,6 +38,12 @@
     <useTimeoutDemo />
     <h3>useIntervalDemo</h3>
     <useIntervalDemo />
+    <h3>useRafTimeoutDemo</h3>
+    <useRafTimeoutDemo />
+    <h3>useRafIntervalDemo</h3>
+    <useRafIntervalDemo />
+    <h3>useCountDownDemo</h3>
+    <useCountDownDemo />
   </div>
 </template>
 
@@ -61,5 +67,8 @@
  import useOnceWatchDemo from './demo/use-once-watch.vue';
  import useTimeoutDemo from './demo/use-timeout.vue';
  import useIntervalDemo from './demo/use-interval.vue';
+ import useRafTimeoutDemo from './demo/use-raf-timeout.vue';
+ import useRafIntervalDemo from './demo/use-raf-Interval.vue';
+ import useCountDownDemo from './demo/use-count-down.vue';
 </script>
 <style scoped lang="scss"></style>

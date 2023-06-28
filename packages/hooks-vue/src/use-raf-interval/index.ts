@@ -1,13 +1,14 @@
-import { ref, onBeforeMount, onBeforeUnmount } from 'vue';
+import { ref, onBeforeMount } from 'vue';
 import type { Ref } from 'vue';
 import { isNumber } from 'lodash-es';
 
-export type UseTimeoutFnReturn = {
-  isRunning: Ref<boolean>; //是否已经触发了
-  stop: () => void; //取消定时器
-  start: () => void; //重新执行定时器
+export type UseIntervalFnReturn = {
+  isRunning: Ref<boolean>;
+  start: () => void; //开始定时器
+  stop: () => void; //停止定时器
 };
-export type UseTimeoutFnOptions = {
+
+export type UseIntervalFnOptions = {
   immediate?: boolean;
   autoStart?: boolean;
 };
@@ -16,11 +17,11 @@ type Timer = {
   id: number;
 };
 
-const setRafTimeout = (fn: () => void, delay = 0) => {
+const setRafInterval = (fn: () => void, delay = 0) => {
   const timer: Timer = {
     id: 0,
   };
-  const start = new Date().getTime();
+  let start = new Date().getTime();
   const step = () => {
     const current = new Date().getTime();
 
@@ -28,41 +29,42 @@ const setRafTimeout = (fn: () => void, delay = 0) => {
 
     if (elapsed >= delay) {
       fn();
-    } else {
-      timer.id = requestAnimationFrame(step);
+      start = new Date().getTime();
     }
+    timer.id = requestAnimationFrame(step);
   };
   timer.id = requestAnimationFrame(step);
   return timer;
 };
 
-const clearRafTimeout = (timerId: number) => {
-  cancelAnimationFrame(timerId);
+const clearRafInterval = (timerId: number) => {
+  if (timerId) {
+    cancelAnimationFrame(timerId);
+  }
 };
 
-
-const useRafTimeout = (
+const useRafInterval = (
   callback: () => void,
   delay = 0,
-  options?: UseTimeoutFnOptions,
-): UseTimeoutFnReturn => {
+  options?: UseIntervalFnOptions,
+): UseIntervalFnReturn => {
   if (!isNumber(delay) || delay < 0) {
     throw new Error('delay is not invalid');
   }
+
   const { immediate = false, autoStart = true } = options || {};
   const isRunning = ref<boolean>(false);
-  const timerRef = ref<Timer>({ id: 0 });
+  const timerRef = ref<Timer | null>(null);
   const shouldExecuteCallback = ref(autoStart);
 
   const run = () => {
     stop();
-
     isRunning.value = true;
     if (immediate) {
       callback();
     }
-    timerRef.value = setRafTimeout(() => {
-      if (!shouldExecuteCallback) {
+    timerRef.value = setRafInterval(() => {
+      if (!shouldExecuteCallback.value) {
         stop();
         return;
       }
@@ -72,22 +74,17 @@ const useRafTimeout = (
 
   const stop = () => {
     isRunning.value = false;
-    if (timerRef.value) {
-      clearRafTimeout(timerRef.value.id);
-      timerRef.value = { id: 0 };
+    if (timerRef.value?.id) {
+      clearRafInterval(timerRef.value?.id);
+      timerRef.value = null;
     }
   };
-
   onBeforeMount(() => {
     if (shouldExecuteCallback.value) {
       run();
     } else {
       stop();
     }
-  });
-
-  onBeforeUnmount(() => {
-    stop();
   });
 
   return {
@@ -100,4 +97,4 @@ const useRafTimeout = (
   };
 };
 
-export default useRafTimeout;
+export default useRafInterval;

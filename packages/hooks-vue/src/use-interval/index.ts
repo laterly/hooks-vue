@@ -1,4 +1,3 @@
-// import { useEffect, useRef, useState, useCallback } from 'react';
 import { ref, onBeforeMount } from 'vue';
 import type { Ref } from 'vue';
 import { isNumber } from 'lodash-es';
