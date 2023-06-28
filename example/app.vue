@@ -36,6 +36,8 @@
     <useOnceWatchDemo />
     <h3>useTimeoutDemo</h3>
     <useTimeoutDemo />
+    <h3>useIntervalDemo</h3>
+    <useIntervalDemo />
   </div>
 </template>
 
@@ -58,5 +60,6 @@
  import useThrottleWatchDemo from './demo/use-throttle-watch.vue';
  import useOnceWatchDemo from './demo/use-once-watch.vue';
  import useTimeoutDemo from './demo/use-timeout.vue';
+ import useIntervalDemo from './demo/use-interval.vue';
 </script>
 <style scoped lang="scss"></style>

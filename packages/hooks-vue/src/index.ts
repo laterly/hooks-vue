@@ -17,6 +17,7 @@ import useDebounceWatch from './use-debounce-watch';
 import useThrottleWatch from './use-throttle-watch';
 import useOnceWatch from './use-once-watch';
 import useTimeout from './use-timeout';
+import useInterval from './use-interval';
 
 export {
   useBoolean,
@@ -37,5 +38,6 @@ export {
   useDebounceWatch,
   useThrottleWatch,
   useOnceWatch,
-  useTimeout
+  useTimeout,
+  useInterval
 };
