@@ -34,6 +34,8 @@
     <useThrottleWatchDemo />
     <h3>useOnceWatchDemo</h3>
     <useOnceWatchDemo />
+    <h3>useTimeoutDemo</h3>
+    <useTimeoutDemo />
   </div>
 </template>
 
@@ -55,5 +57,6 @@
  import useDebounceWatchDemo from './demo/use-debounce-watch.vue';
  import useThrottleWatchDemo from './demo/use-throttle-watch.vue';
  import useOnceWatchDemo from './demo/use-once-watch.vue';
+ import useTimeoutDemo from './demo/use-timeout.vue';
 </script>
 <style scoped lang="scss"></style>

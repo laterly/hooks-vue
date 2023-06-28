@@ -44,6 +44,8 @@ pnpm install hooks-vue3 --save
   - [`useDebounceWatch`](https://laterly.gitbook.io/hooks-vue3/usedebouncewatch) - useDebounceWatch 跟watch类似，可以控制函数在多次触发的防抖。
   - [`useThrottleWatch`](https://laterly.gitbook.io/hooks-vue3/usethrottlewatch) - useThrottleWatch 跟watch类似，可以控制函数在多次触发的节流。
    - [`useOnceWatch`](https://laterly.gitbook.io/hooks-vue3/useoncewatch) - useOnceWatch 跟watch类似，只触发一次监听，然后自动停止监听
+- **Side**
+  - [`useTimeout`](https://laterly.gitbook.io/hooks-vue3/usetimeout) — useTimeout 在指定的时间后执行一个函数
 - **State**
   - [`useBoolean`](https://laterly.gitbook.io/hooks-vue3/useboolean) — useBoolean 管理一个布尔类型的状态值.
   - [`useToggle`](https://laterly.gitbook.io/hooks-vue3/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值

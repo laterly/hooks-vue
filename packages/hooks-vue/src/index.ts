@@ -16,6 +16,7 @@ import useHover from './use-hover';
 import useDebounceWatch from './use-debounce-watch';
 import useThrottleWatch from './use-throttle-watch';
 import useOnceWatch from './use-once-watch';
+import useTimeout from './use-timeout';
 
 export {
   useBoolean,
@@ -35,5 +36,6 @@ export {
   useHover,
   useDebounceWatch,
   useThrottleWatch,
-  useOnceWatch
+  useOnceWatch,
+  useTimeout
 };
