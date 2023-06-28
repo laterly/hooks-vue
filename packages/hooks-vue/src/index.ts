@@ -9,6 +9,7 @@ import useAsyncState from './use-async-state';
 import useClickOutside from './use-click-outside';
 import useElementSize from './use-element-size';
 import useTitle from './use-title';
+import useLongPress from './use-long-press';
 
 export {
   useBoolean,
@@ -21,5 +22,6 @@ export {
   useAsyncState,
   useClickOutside,
   useElementSize,
-  useTitle
+  useTitle,
+  useLongPress
 };

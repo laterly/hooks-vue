@@ -20,6 +20,8 @@
     <useElementSizeDemo />
     <h3>useTitleDemo</h3>
     <useTitleDemo />
+    <h3>useLongPressDemo</h3>
+    <useLongPressDemo />
   </div>
 </template>
 
@@ -34,5 +36,6 @@
  import useClickOutsideDemo from './demo/use-click-outside.vue';
  import useElementSizeDemo from './demo/use-element-size.vue';
  import useTitleDemo from './demo/use-title.vue'
+ import useLongPressDemo from './demo/use-long-press.vue';
 </script>
 <style scoped lang="scss"></style>
