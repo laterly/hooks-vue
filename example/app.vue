@@ -22,6 +22,8 @@
     <useTitleDemo />
     <h3>useLongPressDemo</h3>
     <useLongPressDemo />
+    <h3>useDocumentVisibilityDemo</h3>
+    <useDocumentVisibilityDemo />
   </div>
 </template>
 
@@ -37,5 +39,6 @@
  import useElementSizeDemo from './demo/use-element-size.vue';
  import useTitleDemo from './demo/use-title.vue'
  import useLongPressDemo from './demo/use-long-press.vue';
+ import useDocumentVisibilityDemo from './demo/use-document-visibility.vue';
 </script>
 <style scoped lang="scss"></style>

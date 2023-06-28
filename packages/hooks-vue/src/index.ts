@@ -10,6 +10,7 @@ import useClickOutside from './use-click-outside';
 import useElementSize from './use-element-size';
 import useTitle from './use-title';
 import useLongPress from './use-long-press';
+import useDocumentVisibility from './use-document-visibility';
 
 export {
   useBoolean,
@@ -23,5 +24,6 @@ export {
   useClickOutside,
   useElementSize,
   useTitle,
-  useLongPress
+  useLongPress,
+  useDocumentVisibility,
 };

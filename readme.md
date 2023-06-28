@@ -60,3 +60,4 @@ pnpm install hooks-vue3 --save
    - [`useElementSize`](https://laterly.gitbook.io/hooks-vue3/useelementsize) - useElementSize 可以用于获取DOM元素的尺寸信息
    - [`useTitle`](https://laterly.gitbook.io/hooks-vue3/usetitle) - 
    - [`useLongPress`](https://laterly.gitbook.io/hooks-vue3/uselongpress) &mdash; useLongPress 用于在长按某个元素时触发回调函数
+   - [`useDocumentVisibility`](https://laterly.gitbook.io/hooks-vue3/usedocumentvisibility) &mdash; useDocumentVisibility 检测当前页面是否处于活动状态（即当前窗口的可见性）
