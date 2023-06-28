@@ -12,6 +12,7 @@ import useTitle from './use-title';
 import useLongPress from './use-long-press';
 import useDocumentVisibility from './use-document-visibility';
 import useEventListener from './use-event-listener';
+import useHover from './use-hover';
 
 export {
   useBoolean,
@@ -28,4 +29,5 @@ export {
   useLongPress,
   useDocumentVisibility,
   useEventListener,
+  useHover
 };
