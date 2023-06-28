@@ -11,7 +11,7 @@ function getInitState<T>(key: string, value: T) {
   return value;
 }
 
-function useLocalStorageState<T>(
+function useLocalStorage<T>(
   key: string,
   value: T,
 ): [
@@ -47,4 +47,4 @@ function useLocalStorageState<T>(
     },
   ];
 }
-export default useLocalStorageState;
+export default useLocalStorage;

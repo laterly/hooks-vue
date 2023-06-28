@@ -52,6 +52,8 @@ pnpm install hooks-vue3 --save
   - [`useToggle`](https://laterly.gitbook.io/hooks-vue3/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
   - [`useDebounce`](https://laterly.gitbook.io/hooks-vue3/usedebounce) — useDebounce 用于处理防抖值
   - [`useThrottle`](https://laterly.gitbook.io/hooks-vue3/usethrottle) — useThrottle 用于处理节流值
+  - [`useLocalStorage`](https://laterly.gitbook.io/hooks-vue3/uselocalstorage) — useLocalStorage 将状态持久化到 localStorage 本地存储中
+  - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中
   
 - **Elements**
   
