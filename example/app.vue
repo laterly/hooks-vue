@@ -18,6 +18,8 @@
     <useClickOutsideDemo />
     <h3>useElementSizeDemo</h3>
     <useElementSizeDemo />
+    <h3>useTitleDemo</h3>
+    <useTitleDemo />
   </div>
 </template>
 
@@ -31,5 +33,6 @@
  import useAsyncStateDemo from './demo/use-async-state.vue';
  import useClickOutsideDemo from './demo/use-click-outside.vue';
  import useElementSizeDemo from './demo/use-element-size.vue';
+ import useTitleDemo from './demo/use-title.vue'
 </script>
 <style scoped lang="scss"></style>
