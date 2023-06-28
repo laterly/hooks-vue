@@ -3,14 +3,11 @@
     <a href="https://www.npmjs.com/package/hooks-vue3">
        <img src="https://img.shields.io/npm/v/hooks-vue3.svg" alt="npm package" />
     </a>
-     <a href="https://github.com/laterly/hooks-vue3/">
-       <img src="https://img.shields.io/github/stars/laterly/hooks-vue3?style=social" alt="github stars" />
-    </a>
   </sup>
 <h4>Vue3 常用的Hooks</h4>
 
 
-## 🔨 Install
+## 📦 Install
 
 by using `npm`:
 
@@ -31,14 +28,12 @@ by using `pnpm`:
 pnpm install hooks-vue3 --save
 ```
 
-## 🏃 Docs
+## 📚 Online Docs
 <h4>
   <a href="https://laterly.gitbook.io/hooks-vue3/">使用文档</a>
 </h4>
 
-<br>
-
-## ⚡ Usage
+## 🔨 Usage
 
 - **React Style**
   - [`useState`](https://laterly.gitbook.io/hooks-vue3/usestate) — useState 管理状态值.
