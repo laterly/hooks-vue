@@ -14,6 +14,7 @@ import useDocumentVisibility from './use-document-visibility';
 import useEventListener from './use-event-listener';
 import useHover from './use-hover';
 import useDebounceWatch from './use-debounce-watch';
+import useThrottleWatch from './use-throttle-watch';
 
 export {
   useBoolean,
@@ -31,5 +32,6 @@ export {
   useDocumentVisibility,
   useEventListener,
   useHover,
-  useDebounceWatch
+  useDebounceWatch,
+  useThrottleWatch
 };

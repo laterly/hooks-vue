@@ -30,6 +30,8 @@
     <useHoverDemo />
     <h3>useDebounceWatch</h3>
     <useDebounceWatchDemo />
+    <h3>useThrottleWatchDemo</h3>
+    <useThrottleWatchDemo />
   </div>
 </template>
 
@@ -49,5 +51,6 @@
  import useEventListenerDemo from './demo/use-event-listener.vue';
  import useHoverDemo from './demo/use-hover.vue';
  import useDebounceWatchDemo from './demo/use-debounce-watch.vue';
+ import useThrottleWatchDemo from './demo/use-throttle-watch.vue';
 </script>
 <style scoped lang="scss"></style>
