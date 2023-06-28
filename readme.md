@@ -45,7 +45,7 @@ pnpm install hooks-vue3 --save
 
 - **Async**
   - [`useAsyncState`](https://laterly.gitbook.io/hooks-vue3/useasyncstate) — useAsyncState 管理异步状态值.
-- **Side**
+- **Watch**
 
 - **State**
   - [`useBoolean`](https://laterly.gitbook.io/hooks-vue3/useboolean) — useBoolean 管理一个布尔类型的状态值.
@@ -56,4 +56,4 @@ pnpm install hooks-vue3 --save
   - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中
   
 - **Elements**
-  
+   - [`useClickOutside`](https://laterly.gitbook.io/hooks-vue3/useclickoutside) — useClickOutside 监听点击目标元素外部时执行某个回调函数，点击事件也可以自定义，可以是其它的鼠标事件

@@ -6,6 +6,7 @@ import useState from './use-state';
 import useLocalStorage from './use-local-storage';
 import useSessionStorage from './use-session-storage';
 import useAsyncState from './use-async-state';
+import useClickOutside from './use-click-outside';
 
 export {
   useBoolean,
@@ -16,4 +17,5 @@ export {
   useLocalStorage,
   useSessionStorage,
   useAsyncState,
+  useClickOutside,
 };

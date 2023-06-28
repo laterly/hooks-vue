@@ -14,6 +14,8 @@
     <useLocalStorageDemo />
     <h3>useAsyncStateDemo</h3>
     <useAsyncStateDemo />
+    <h3>useClickOutsideDemo</h3>
+    <useClickOutsideDemo />
   </div>
 </template>
 
@@ -25,5 +27,6 @@
  import useStateDemo from './demo/use-state.vue';
  import useLocalStorageDemo from './demo/use-local-storage.vue';
  import useAsyncStateDemo from './demo/use-async-state.vue';
+ import useClickOutsideDemo from './demo/use-click-outside.vue';
 </script>
 <style scoped lang="scss"></style>
