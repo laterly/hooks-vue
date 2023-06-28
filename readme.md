@@ -57,3 +57,4 @@ pnpm install hooks-vue3 --save
   
 - **Elements**
    - [`useClickOutside`](https://laterly.gitbook.io/hooks-vue3/useclickoutside) — useClickOutside 监听点击目标元素外部时执行某个回调函数，点击事件也可以自定义，可以是其它的鼠标事件
+   - [`useElementSize`](https://laterly.gitbook.io/hooks-vue3/useelementsize) - useElementSize 可以用于获取DOM元素的尺寸信息

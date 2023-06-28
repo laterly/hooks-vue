@@ -7,6 +7,7 @@ import useLocalStorage from './use-local-storage';
 import useSessionStorage from './use-session-storage';
 import useAsyncState from './use-async-state';
 import useClickOutside from './use-click-outside';
+import useElementSize from './use-element-size';
 
 export {
   useBoolean,
@@ -18,4 +19,5 @@ export {
   useSessionStorage,
   useAsyncState,
   useClickOutside,
+  useElementSize
 };

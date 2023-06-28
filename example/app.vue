@@ -16,6 +16,8 @@
     <useAsyncStateDemo />
     <h3>useClickOutsideDemo</h3>
     <useClickOutsideDemo />
+    <h3>useElementSizeDemo</h3>
+    <useElementSizeDemo />
   </div>
 </template>
 
@@ -28,5 +30,6 @@
  import useLocalStorageDemo from './demo/use-local-storage.vue';
  import useAsyncStateDemo from './demo/use-async-state.vue';
  import useClickOutsideDemo from './demo/use-click-outside.vue';
+ import useElementSizeDemo from './demo/use-element-size.vue';
 </script>
 <style scoped lang="scss"></style>
