@@ -61,3 +61,4 @@ pnpm install hooks-vue3 --save
    - [`useTitle`](https://laterly.gitbook.io/hooks-vue3/usetitle) - 
    - [`useLongPress`](https://laterly.gitbook.io/hooks-vue3/uselongpress) &mdash; useLongPress 用于在长按某个元素时触发回调函数
    - [`useDocumentVisibility`](https://laterly.gitbook.io/hooks-vue3/usedocumentvisibility) &mdash; useDocumentVisibility 检测当前页面是否处于活动状态（即当前窗口的可见性）
+   - [`useEventListener`](https://laterly.gitbook.io/hooks-vue3/useeventlistener) &mdash; useEventListener 用于封装原生的 addEventListener 方法，使得在函数式组件中添加事件监听器更加方便

@@ -11,6 +11,7 @@ import useElementSize from './use-element-size';
 import useTitle from './use-title';
 import useLongPress from './use-long-press';
 import useDocumentVisibility from './use-document-visibility';
+import useEventListener from './use-event-listener';
 
 export {
   useBoolean,
@@ -26,4 +27,5 @@ export {
   useTitle,
   useLongPress,
   useDocumentVisibility,
+  useEventListener,
 };

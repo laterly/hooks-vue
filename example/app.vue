@@ -24,6 +24,8 @@
     <useLongPressDemo />
     <h3>useDocumentVisibilityDemo</h3>
     <useDocumentVisibilityDemo />
+    <h3>useEventListenerDemo</h3>
+    <useEventListenerDemo />
   </div>
 </template>
 
@@ -40,5 +42,6 @@
  import useTitleDemo from './demo/use-title.vue'
  import useLongPressDemo from './demo/use-long-press.vue';
  import useDocumentVisibilityDemo from './demo/use-document-visibility.vue';
+ import useEventListenerDemo from './demo/use-event-listener.vue';
 </script>
 <style scoped lang="scss"></style>
