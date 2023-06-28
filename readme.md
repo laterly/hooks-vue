@@ -44,11 +44,11 @@ pnpm install hooks-vue3 --save
   - [`useState`](https://laterly.gitbook.io/hooks-vue3/usestate) — useState 管理状态值.
 
 - **Async**
-  
+  - [`useAsyncState`](https://laterly.gitbook.io/hooks-vue3/useasyncstate) — useAsyncState 管理异步状态值.
 - **Side**
 
 - **State**
-  - [`useBoolean`]() — useBoolean 管理一个布尔类型的状态值.
+  - [`useBoolean`](https://laterly.gitbook.io/hooks-vue3/useboolean) — useBoolean 管理一个布尔类型的状态值.
   - [`useToggle`](https://laterly.gitbook.io/hooks-vue3/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
   - [`useDebounce`](https://laterly.gitbook.io/hooks-vue3/usedebounce) — useDebounce 用于处理防抖值
   - [`useThrottle`](https://laterly.gitbook.io/hooks-vue3/usethrottle) — useThrottle 用于处理节流值

@@ -12,6 +12,8 @@
     <useStateDemo />
     <h3>useLocalStorageDemo</h3>
     <useLocalStorageDemo />
+    <h3>useAsyncStateDemo</h3>
+    <useAsyncStateDemo />
   </div>
 </template>
 
@@ -22,5 +24,6 @@
  import useThrottleDemo from './demo/use-throttle.vue';
  import useStateDemo from './demo/use-state.vue';
  import useLocalStorageDemo from './demo/use-local-storage.vue';
+ import useAsyncStateDemo from './demo/use-async-state.vue';
 </script>
 <style scoped lang="scss"></style>

@@ -5,6 +5,7 @@ import useThrottle from './use-throttle';
 import useState from './use-state';
 import useLocalStorage from './use-local-storage';
 import useSessionStorage from './use-session-storage';
+import useAsyncState from './use-async-state';
 
 export {
   useBoolean,
@@ -14,4 +15,5 @@ export {
   useState,
   useLocalStorage,
   useSessionStorage,
+  useAsyncState,
 };
