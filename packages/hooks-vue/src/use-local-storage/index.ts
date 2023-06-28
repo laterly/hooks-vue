@@ -1,4 +1,4 @@
-import { ref } from 'vue';
+import { ref,unref } from 'vue';
 import type { Ref, UnwrapRef } from 'vue';
 import { storage } from './storage';
 
@@ -25,7 +25,7 @@ function useLocalStorage<T>(
   const state = ref<T>(getInitState<T>(key, value));
 
   const set = (value: UnwrapRef<T>) => {
-    state.value = value;
+    state.value = unref(value);
     storage.local.set<UnwrapRef<T>>(key, value);
   };
   const del = () => {
