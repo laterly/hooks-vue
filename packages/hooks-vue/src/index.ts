@@ -21,6 +21,7 @@ import useInterval from './use-interval';
 import useRafTimeout from './use-raf-timeout';
 import useRafInterval from './use-raf-interval';
 import useCountDown from './use-count-down';
+import useRafCountDown from './use-raf-count-down';
 
 export {
   useBoolean,
@@ -45,5 +46,6 @@ export {
   useRafTimeout,
   useInterval,
   useRafInterval,
-  useCountDown
+  useCountDown,
+  useRafCountDown
 };

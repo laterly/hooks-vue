@@ -5,7 +5,7 @@
       <button
         @click="
           {
-            stopCountDown;
+            stopCountDown();
           }
         "
       >
@@ -37,13 +37,13 @@
 
 <script setup lang="ts">
 
-import { useCountDown } from "../../packages/hooks-vue/src";
+import { useRafCountDown } from "../../packages/hooks-vue/src";
 const {
   isRunning: isRunningCountDown,
   current: currentCounrDown,
   start: startCountDown,
   stop: stopCountDown,
-} = useCountDown({
+} = useRafCountDown({
   //倒计时6秒
   time: 6 * 1000,
   //变化时间间隔（毫秒）

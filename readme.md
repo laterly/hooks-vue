@@ -55,7 +55,9 @@ pnpm install hooks-vue3 --save
   - [`useDebounce`](https://laterly.gitbook.io/hooks-vue3/usedebounce) — useDebounce 用于处理防抖值
   - [`useThrottle`](https://laterly.gitbook.io/hooks-vue3/usethrottle) — useThrottle 用于处理节流值
   - [`useLocalStorage`](https://laterly.gitbook.io/hooks-vue3/uselocalstorage) — useLocalStorage 将状态持久化到 localStorage 本地存储中
-  - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中
+  - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中 
+  - [`useCountDown`](https://laterly.gitbook.io/hooks-vue3/usecountdown) - useCountDown 可用于实现倒计时
+  - [`useRafCountDown`](https://laterly.gitbook.io/hooks-vue3/userafcountdown) - useRafCountDown 可用于实现倒计时，基于 requestAnimationFrame 实现
   
 - **Elements**
    - [`useClickOutside`](https://laterly.gitbook.io/hooks-vue3/useclickoutside) — useClickOutside 监听点击目标元素外部时执行某个回调函数，点击事件也可以自定义，可以是其它的鼠标事件

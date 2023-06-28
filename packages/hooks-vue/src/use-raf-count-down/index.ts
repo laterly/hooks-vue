@@ -1,5 +1,5 @@
 import { ref, Ref } from 'vue';
-import useInterval from '../use-interval';
+import useRafInterval from '../use-raf-interval';
 import { isNumber } from 'lodash-es';
 
 type CurrentTime = {
@@ -38,7 +38,7 @@ const parseTime = (time: number) => {
   };
 };
 
-const useCountDown = ({
+const useRafCountDown = ({
   time,
   interval = 1000,
   immediate = false,
@@ -64,7 +64,7 @@ const useCountDown = ({
     isRunning,
     start: startCountDown,
     stop,
-  } = useInterval(
+  } = useRafInterval(
     () => {
       const newTotal = currentTime.value?.total - interval;
       console.log('newTotal', newTotal);
@@ -98,4 +98,4 @@ const useCountDown = ({
   };
 };
 
-export default useCountDown;
+export default useRafCountDown;
