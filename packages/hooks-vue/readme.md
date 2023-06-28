@@ -44,13 +44,20 @@ pnpm install hooks-vue3 --save
   - [`useDebounceWatch`](https://laterly.gitbook.io/hooks-vue3/usedebouncewatch) - useDebounceWatch 跟watch类似，可以控制函数在多次触发的防抖。
   - [`useThrottleWatch`](https://laterly.gitbook.io/hooks-vue3/usethrottlewatch) - useThrottleWatch 跟watch类似，可以控制函数在多次触发的节流。
    - [`useOnceWatch`](https://laterly.gitbook.io/hooks-vue3/useoncewatch) - useOnceWatch 跟watch类似，只触发一次监听，然后自动停止监听
+- **Side**
+  - [`useTimeout`](https://laterly.gitbook.io/hooks-vue3/usetimeout) — useTimeout 在指定的时间后执行一个函数
+  - [`useRafTimeout`](https://laterly.gitbook.io/hooks-vue3/useraftimeout) — useRafTimeout 在指定的时间后执行一个函数，基于 requestAnimationFrame 实现
+  - [`useInterval`](https://laterly.gitbook.io/hooks-vue3/useinterval) — useInterval 定时器执行一个函数
+  - [`useRafInterval`](https://laterly.gitbook.io/hooks-vue3/userafinterval) — useRafInterval 定时执行一个函数，基于 requestAnimationFrame 实现
 - **State**
   - [`useBoolean`](https://laterly.gitbook.io/hooks-vue3/useboolean) — useBoolean 管理一个布尔类型的状态值.
   - [`useToggle`](https://laterly.gitbook.io/hooks-vue3/usetoggle) — useToggle 可用于管理布尔值状态，还可以用于管理任何类型的状态的真假值
   - [`useDebounce`](https://laterly.gitbook.io/hooks-vue3/usedebounce) — useDebounce 用于处理防抖值
   - [`useThrottle`](https://laterly.gitbook.io/hooks-vue3/usethrottle) — useThrottle 用于处理节流值
   - [`useLocalStorage`](https://laterly.gitbook.io/hooks-vue3/uselocalstorage) — useLocalStorage 将状态持久化到 localStorage 本地存储中
-  - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中
+  - [`useSessionStorage`](https://laterly.gitbook.io/hooks-vue3/usesessionstorage) — useSessionStorage 将状态持久化到 sessionStorage 本地存储中 
+  - [`useCountDown`](https://laterly.gitbook.io/hooks-vue3/usecountdown) - useCountDown 可用于实现倒计时
+  - [`useRafCountDown`](https://laterly.gitbook.io/hooks-vue3/userafcountdown) - useRafCountDown 可用于实现倒计时，基于 requestAnimationFrame 实现
   
 - **Elements**
    - [`useClickOutside`](https://laterly.gitbook.io/hooks-vue3/useclickoutside) — useClickOutside 监听点击目标元素外部时执行某个回调函数，点击事件也可以自定义，可以是其它的鼠标事件
