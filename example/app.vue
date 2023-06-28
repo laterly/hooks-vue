@@ -10,6 +10,8 @@
     <useThrottleDemo />
     <h3>useStateDemo</h3>
     <useStateDemo />
+    <h3>useLocalStorageDemo</h3>
+    <useLocalStorageDemo />
   </div>
 </template>
 
@@ -19,5 +21,6 @@
  import useDebounceDemo from './demo/use-debounce.vue';
  import useThrottleDemo from './demo/use-throttle.vue';
  import useStateDemo from './demo/use-state.vue';
+ import useLocalStorageDemo from './demo/use-local-storage.vue';
 </script>
 <style scoped lang="scss"></style>
