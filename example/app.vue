@@ -28,6 +28,8 @@
     <useEventListenerDemo />
     <h3>useHoverDemo</h3>
     <useHoverDemo />
+    <h3>useDebounceWatch</h3>
+    <useDebounceWatchDemo />
   </div>
 </template>
 
@@ -46,5 +48,6 @@
  import useDocumentVisibilityDemo from './demo/use-document-visibility.vue';
  import useEventListenerDemo from './demo/use-event-listener.vue';
  import useHoverDemo from './demo/use-hover.vue';
+ import useDebounceWatchDemo from './demo/use-debounce-watch.vue';
 </script>
 <style scoped lang="scss"></style>

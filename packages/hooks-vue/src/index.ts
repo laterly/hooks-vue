@@ -13,6 +13,7 @@ import useLongPress from './use-long-press';
 import useDocumentVisibility from './use-document-visibility';
 import useEventListener from './use-event-listener';
 import useHover from './use-hover';
+import useDebounceWatch from './use-debounce-watch';
 
 export {
   useBoolean,
@@ -29,5 +30,6 @@ export {
   useLongPress,
   useDocumentVisibility,
   useEventListener,
-  useHover
+  useHover,
+  useDebounceWatch
 };
