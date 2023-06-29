@@ -26,6 +26,6 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "hooks-vue3": "workspace:^1.0.0"
+    "hooks-vue3": "workspace:^1.0.2"
   }
 }

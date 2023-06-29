@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@types/gulp': ^4.0.11
       gulp: ^4.0.2
-      hooks-vue3: workspace:^1.0.0
+      hooks-vue3: workspace:^1.0.2
       sucrase: ^3.32.0
       typescript: ^5.1.3
       vue: ^3.3.4
