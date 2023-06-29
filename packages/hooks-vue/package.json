@@ -1,6 +1,6 @@
 {
   "name": "hooks-vue3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hooks-vue3",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
